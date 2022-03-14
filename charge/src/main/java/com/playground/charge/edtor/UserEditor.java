@@ -101,8 +101,7 @@ public class UserEditor extends VerticalLayout implements KeyNotifier {
 	}
 
 	public void setChangeHandler(ChangeHandler h) {
-		// ChangeHandler is notified when either save or delete
-		// is clicked
+		// ChangeHandler is notified when either save or delete is clicked
 		changeHandler = h;
 	}
 
